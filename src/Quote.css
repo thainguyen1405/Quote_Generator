@@ -1,0 +1,114 @@
+.body {
+    background-color: #060d2a;
+    padding: 20px;
+    border-radius: 8px;
+    margin: max-height 4000px;
+    text-align: center;
+}
+
+.heading {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.4rem;
+  margin-top: 100px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+.quote-box {
+  background: linear-gradient(to bottom right, #3a3f5c, #0c1135);
+  position: relative;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  padding: 72px;
+  max-width: 600px;
+  margin: 60px auto;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+  transition: box-shadow 0.3s, background 0.3s;
+}
+
+.quote-box:hover {
+  background: #646276;
+  box-shadow: 0 6px 24px rgba(0,0,0,0.16);
+  position: relative;
+}
+
+.quote-text {
+  font-size: 1.2rem;
+  color: #ffffff;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+.quote-author{
+  font-size: 1.2rem;
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+  position: absolute;
+  bottom: 16px;
+  right: 24px;
+  font-style: italic; 
+}
+
+.quote-category{
+  font-size: 1.2rem;
+  color: #ffffff;
+  position: absolute;
+  font-family: 'Poppins', sans-serif;
+  bottom: 16px;
+  left: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.new-box {
+  background-color: #c883a6;      /* Pink */
+  color: #000000;                    /* White text */
+  border: none;
+  border-radius: 25px;             /* Makes edges circular */
+  padding: 12px 60px;              /* Rectangle shape */
+  font-size: 1rem;
+  margin: -10px auto;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.new-box:hover {
+  background-color: #c69db3;       /* Darker pink on hover */
+}
+
+.balloon-row {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 32px;
+}
+
+.balloon {
+  /* Optional: add a little shadow or animation */
+  filter: drop-shadow(0 2px 4px rgba(255,105,180,0.15));
+}
+
+
+/*Social Media Icons*/
+.social-icons {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  margin-top: 24px;
+}
+
+.social-icons a {
+  color: #f381ba; /* Pink */
+  font-size: 2.5rem;
+  transition: color 0.2s;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 60px; /* Increase this value to move further down */
+}
+
+.social-icons a:hover {
+  color: #333; /* Change color on hover */
+}
